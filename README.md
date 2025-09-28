@@ -1,11 +1,4 @@
-# Aptos Links
 
-This is a **clone / demo version** of [apt-links.vercel.app](https://apt-links.vercel.app).  
-It is a simple **link directory app** where you can save, organize, search, and share links with tags.  
-
-Built with **Next.js** and deployable to **Vercel**.
-
----
 
 ## ✨ Features
 
