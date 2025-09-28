@@ -43,3 +43,77 @@ Built with **Next.js** and deployable to **Vercel**.
 
  PROJECT STRUCTURE 
  aptos-links/ ├─ package.json          # Dependencies & scripts ├─ next.config.js        # Next.js config ├─ README.md             # Project docs ├─ public/ │   └─ favicon.ico       # Browser icon ├─ styles/ │   └─ globals.css       # Global styles ├─ pages/ │   ├─ _app.js           # Global wrapper │   ├─ index.js          # Homepage (UI) │   └─ api/ │       └─ links.js     # API routes
+
+
+---
+
+## 🔧 Development
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/Fillo001/aptos-links.git
+cd aptos-links
+2. Install dependencies
+
+npm install
+
+3. Run locally
+
+npm run dev
+
+Visit: http://localhost:3000
+
+
+---
+
+🌍 Deployment (Vercel)
+
+1. Push your repo to GitHub.
+
+
+2. Connect the repo to Vercel.
+
+
+3. Deploy → the app will be live on a vercel.app URL.
+
+
+
+
+---
+
+⚠️ Limitations
+
+Links are stored in-memory inside the serverless function (pages/api/links.js).
+
+They reset whenever the server restarts or redeploys.
+
+
+To make links persistent, connect a database:
+
+SQLite / Prisma
+
+PostgreSQL / PlanetScale
+
+Supabase
+
+
+📌 Roadmap
+
+✅ Add, search, filter, copy links
+
+⏳ Add authentication (NextAuth.js)
+
+⏳ Persistent DB support
+
+⏳ Tag cloud view / sorting
+
+⏳ Import/export bookmarks
+
+
+📜 License
+
+MIT License – free to use, modify, and deploy.
+
+---
+
+Do you also want me to **update the code internals** (like the app title in `pages/index.js` and modal headers) from *Smart Links* → *Aptos Links* so the UI matches the new name?
