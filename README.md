@@ -13,10 +13,6 @@
   - `POST /api/links` → add a new link  
 - 🛠️ **In-memory store** (data resets on cold start / redeploy)
 
----
-
-## 🖼️ Screenshots
-
 ### Home Page
 - List of saved links
 - Copy/Open buttons
@@ -31,7 +27,6 @@
 
 - [Next.js](https://nextjs.org/) – React framework  
 - [React](https://reactjs.org/) – UI components  
-- [Vercel](https://vercel.com/) – Deployment  
 - Vanilla CSS (in `styles/globals.css`) – Styling
 
  PROJECT STRUCTURE 
@@ -55,24 +50,6 @@ npm install
 npm run dev
 
 Visit: http://localhost:3000
-
-
----
-
-🌍 Deployment (Vercel)
-
-1. Push your repo to GitHub.
-
-
-2. Connect the repo to Vercel.
-
-
-3. Deploy → the app will be live on a vercel.app URL.
-
-
-
-
----
 
 ⚠️ Limitations
 
